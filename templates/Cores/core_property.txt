@@ -1,0 +1,9 @@
+function set_[fieldname]($val) 
+{ 
+	$this->[fieldname] = $val;  
+}
+
+function get_[fieldname]() 
+{
+	return $this->[fieldname];
+}
